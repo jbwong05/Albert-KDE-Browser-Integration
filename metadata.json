@@ -1,0 +1,10 @@
+{
+    "id" :              "org.albert.extension.kdebrowserintegration",
+    "name" :            "KDE Browser Integration",
+    "version" :         "1.0",
+    "platform" :        "All",
+    "group" :           "Extensions",
+    "author" :          "Joshua Wong",
+    "dependencies" :    [],
+    "enabledbydefault": false
+}
