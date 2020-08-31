@@ -19,3 +19,6 @@ cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install
 ```
+
+## Credits
+The main logic of this plugin was based on the [tabsrunner plugin](https://invent.kde.org/plasma/plasma-browser-integration/-/tree/master/tabsrunner) from the [Plasma Browser Integration Project](https://invent.kde.org/plasma/plasma-browser-integration).
