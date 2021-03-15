@@ -24,7 +24,7 @@ namespace KDEBrowserIntegration {
             Extension();
             ~Extension() override;
 
-            QString name() const override { return "Extra KDE Settings"; }
+            QString name() const override { return "KDE Browser Integration"; }
             QWidget *widget(QWidget *parent = nullptr) override;
             void handleQuery(Core::Query * query) const override;
 
