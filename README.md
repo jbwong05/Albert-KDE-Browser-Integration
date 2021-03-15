@@ -33,7 +33,7 @@ make
 sudo make install
 ```
 
-### Uninstallation
+## Uninstallation
 ```
 sudo rm -f /usr/lib/albert/plugins/libkdebrowserintegration.so
 ```
