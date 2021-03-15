@@ -33,5 +33,10 @@ make
 sudo make install
 ```
 
+### Uninstallation
+```
+sudo rm -f /usr/lib/albert/plugins/libkdebrowserintegration.so
+```
+
 ## Credits
 The main logic of this plugin was based on the [tabsrunner plugin](https://invent.kde.org/plasma/plasma-browser-integration/-/tree/master/tabsrunner) from the [Plasma Browser Integration Project](https://invent.kde.org/plasma/plasma-browser-integration).
