@@ -4,7 +4,7 @@
 #include <QDBusConnection>
 #include "SwitchToTabAction.h"
 
-void KDEBrowserIntegration::SwitchToTabAction::activate() {
+void KDEBrowserIntegration::SwitchToTabAction::activate() const {
     QDBusMessage message = QDBusMessage::createMethodCall(service,
             QStringLiteral("/TabsRunner"),
             QStringLiteral("org.kde.plasma.browser_integration.TabsRunner"),

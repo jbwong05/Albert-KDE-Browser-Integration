@@ -12,7 +12,6 @@
 #include <QDBusMessage>
 #include "albert/util/standarditem.h"
 #include "xdg/iconlookup.h"
-#include "albert/util/shutil.h"
 #include "albert/util/standardactions.h"
 #include "albert/util/standarditem.h"
 #include "configwidget.h"

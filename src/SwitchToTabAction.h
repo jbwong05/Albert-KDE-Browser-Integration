@@ -7,7 +7,7 @@ namespace KDEBrowserIntegration {
         public:
             SwitchToTabAction(const QString &text, QString service, int tabId) : 
                 Core::StandardActionBase(text), service(service), tabId(tabId) {};
-            void activate() override;
+            void activate() const override;
 
         private:
             QString service;
