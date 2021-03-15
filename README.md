@@ -1,5 +1,4 @@
 # Albert KDE Browser Integration
-*Note: The current build only supports Albert v0.16.4 and under. Support for Albert v0.17 is coming soon!
 
 ## Description
 Port of the KRunner code from the [Plasma Browser Integration Project](https://invent.kde.org/plasma/plasma-browser-integration) to a QPlugin for the [Albert Launcher](https://albertlauncher.github.io/) allowing [Albert](https://albertlauncher.github.io/) to access and switch to open browser tabs
